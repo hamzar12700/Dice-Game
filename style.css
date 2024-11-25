@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom right, red, purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    /* background-color: white; */
+    position: relative;
+    color: white;
+}
+
+button {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.newGame {
+    position: absolute;
+    left: 290px;
+    top: 30px;
+}
+
+
+.rollDice {
+    position: absolute;
+    left: 300px;
+    /* top: 300px; */
+    bottom: 162px;
+    
+
+}
+
+.hold {
+    position: absolute;
+    left: 315px;
+    /* top: 380px; */
+    bottom: 100px;
+
+}
+
+
+
+
+
+.dice img {
+    height: 18%;
+    width: 13%;
+    position: absolute;
+    left: 299px;
+    top: 150px;
+
+}
+
+
+.section1,
+.section2 {
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    padding-block: 120px;
+}
+
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current {
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.rollNum{
+    font-size: 70px;
+}
+
+.activePlayer{
+    background-color: lightgray;
+    cursor: pointer;
+
+}
